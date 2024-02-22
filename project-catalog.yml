@@ -1,7 +1,7 @@
 ---
 project-repositories:
   - name: "web"
-    description: "Hello, World RESTful web service."
+    description: "Testando, World RESTful web service."
     url: "https://github.com/dashaun-project-catalog/rest-service"
     tags:
       - "java-21"
@@ -9,7 +9,7 @@ project-repositories:
       - "rest"
       - "web"
   - name: "jpa"
-    description: "Learn how to work with JPA data persistence using Spring Data JPA."
+    description: "Teste Learn how to work with JPA data persistence using Spring Data JPA."
     url: "https://github.com/dashaun-project-catalog/rpt-spring-data-jpa"
     tags:
       - "java-21"
@@ -17,14 +17,14 @@ project-repositories:
       - "jpa"
       - "h2"
   - name: "graphql"
-    description: "Spring GraphQL"
+    description: "Teste Spring GraphQL"
     url: "https://github.com/dashaun-project-catalog/rpt-spring-graphql"
     tags:
       - "java-21"
       - "boot-3.2.x"
       - "graphql"
   - name: "modulith"
-    description: "Spring Moduliths"
+    description: "Teste Spring Moduliths"
     url: "https://github.com/dashaun-project-catalog/modulith-simple"
     tags:
       - "java-21"
