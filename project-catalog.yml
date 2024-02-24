@@ -1,18 +1,18 @@
 ---
 project-repositories:
-  - name: "native"
-    description: "Testando, World RESTful web service."
-    url: "https://github.com/valdemarjuniorr/springboot3-examples/tree/main/graalvm-native"
+  - name: "web"
+    description: "RESTful service example"
+    url: "https://github.com/valdemarjuniorr/project-catalog-examples/web"
     tags:
       - "java-21"
       - "boot-3.2.x"
       - "rest"
       - "web"
-  - name: "localstack"
-    description: "Teste Learn how to work with JPA data persistence using Spring Data JPA."
-    url: "https://github.com/valdemarjuniorr/springboot3-examples/tree/main/localstack-example"
+  - name: "test-containers"
+    description: "A TestContainers example"
+    url: "https://github.com/valdemarjuniorr/project-catalog-examples/test-container"
     tags:
       - "java-21"
       - "boot-3.2.x"
-      - "jpa"
-      - "h2"
+      - "test-containers"
+      - "docker"
