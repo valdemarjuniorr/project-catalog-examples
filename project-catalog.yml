@@ -2,7 +2,7 @@
 project-repositories:
   - name: "web"
     description: "RESTful service example"
-    url: "https://github.com/valdemarjuniorr/project-catalog-examples/web"
+    url: "https://github.com/valdemarjuniorr/project-catalog-examples/tree/main/web"
     tags:
       - "java-21"
       - "boot-3.2.x"
@@ -10,7 +10,7 @@ project-repositories:
       - "web"
   - name: "test-containers"
     description: "A TestContainers example"
-    url: "https://github.com/valdemarjuniorr/project-catalog-examples/test-container"
+    url: "https://github.com/valdemarjuniorr/project-catalog-examples/tree/main/test-container"
     tags:
       - "java-21"
       - "boot-3.2.x"
