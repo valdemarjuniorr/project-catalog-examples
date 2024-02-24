@@ -16,3 +16,11 @@ project-repositories:
       - "boot-3.2.x"
       - "test-containers"
       - "docker"
+  - name: "ai"
+    description: "A Spring AI example"
+    url: "https://github.com/valdemarjuniorr/project-catalog-examples/tree/main/spring-ai-example"
+    tags:
+      - "java-21"
+      - "boot-3.2.x"
+      - "ai"
+      - "spring-ai"
