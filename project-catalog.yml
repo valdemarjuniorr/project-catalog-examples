@@ -24,3 +24,4 @@ project-repositories:
       - "boot-3.2.x"
       - "ai"
       - "spring-ai"
+      - "open-ai"
