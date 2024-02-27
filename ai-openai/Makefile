@@ -3,6 +3,6 @@ start:
 	mvn spring-boot:run
 
 # start application with native image
-start-native:
+native-start:
 	mvn -Pnative native:compile
-	./target/spring-ai-example
+	./target/ai
