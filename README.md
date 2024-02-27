@@ -41,3 +41,4 @@ spring boot new <PROJECT_NAME> web
 ```
 
 ## References
+[Spring CLI example](https://github.com/valdemarjuniorr/springboot3-examples/tree/main/spring-cli-example)
