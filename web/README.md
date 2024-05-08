@@ -20,18 +20,19 @@ It will respond with a JSON representation of a products, as the following listi
 
 Run the command:
 
-```bash
+```shell
 $ make start
 ```
-or with you want to use native images:
 
-```bash
-$ make start-native
+You can start the project with native image with the command:
+```shell
+$ make native-start
 ```
+With Native Image, applications can run faster, use less memory, and be more secure as shown [here](https://github.com/valdemarjuniorr/spring-boot-graalvm-performance-comparation).
 
 ## How to use
 After starting the application, you can use the following command to test the application:
 
-```bash
+```shell
 $ curl http://localhost:8080/products
 ```

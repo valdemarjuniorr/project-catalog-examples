@@ -15,12 +15,12 @@ This repository contains examples of project catalogs for the Spring CLI.
 To use those templates is necessary to register the `project-catalog.yml` to the Sprint CLI project-catalog.
 To do this, run the following command:
 
-```bash
+```shell
 $ spring project-catalog add examples https://github.com/valdemarjuniorr/project-catalog-examples
 ```
 It will add a project catalog named `examples` to the Spring CLI project-catalog list. To check if the project catalog `examples` was added, run the following command:
 
-```bash
+```shell
 $ spring project-catalog list
 ```
 You will see the following output:
@@ -36,7 +36,7 @@ You will see the following output:
 ### Create a new project
 After adding those project templates, you will be able to create a new project. To do this, run the following command, for example to use `web` template:
 
-```bash
+```shell
 spring boot new <PROJECT_NAME> web
 ```
 

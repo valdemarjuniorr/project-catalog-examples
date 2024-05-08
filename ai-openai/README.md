@@ -17,16 +17,21 @@ To learn more about some concepts, you can check the [references](#references) s
 
 First clone the project
 
-```sh
+```shell
 $ git clone git@github.com:valdemarjuniorr/springboot3-examples.git
 ```
 
 and then, start the project locally using `local` profile, running the command:
 
-```sh
+```shell
 $ cd spring-ai-example
 $ make start
 ```
+
+```shell
+$ make native-start
+```
+With Native Image, applications can run faster, use less memory, and be more secure as shown [here](https://github.com/valdemarjuniorr/spring-boot-graalvm-performance-comparation).
 
 ## How to use
 
@@ -37,19 +42,19 @@ Make sure to save this somewhere safe and do not share it with anyone.
 ### Environment variables
 Now, you need to set the environment variables `OPENAI_API_KEY` with the API KEY created in the previous step. For example:
 
-```sh
+```shell
 $ export OPENAI_API_KEY=<OPENAI_API_KEY>
 ```
 
 After that, you can run the application using the command:
 
-```sh
+```shell
 $ make start
 ```
 
 And then, you can run the `curl` command to ask a question to the model:
 
-```sh
+```shell
 curl --location 'http://localhost:8080/ask' \
 --header 'Content-Type: application/json' \
 --data '{
